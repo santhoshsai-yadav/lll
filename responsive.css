@@ -1,0 +1,11 @@
+@media (max-width:576px) {
+    .contents h1 {
+        font-size: 20px !important;
+        
+    }
+
+    .btns{
+        text-align: center !important;
+        margin-left: 40px;
+    } 
+}

@@ -1,0 +1,118 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px solid red; */
+}
+:root {
+    --main: #47b2e4;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    font-family: jost, sans-serif;
+}
+h2 {
+    font-family: jost, sans-serif;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+}
+.navbar-brand{
+    letter-spacing: 1px;
+    font-size: 30px !important;
+    font-family: jost, sans-serif;
+    font-weight: bold; 
+    color: #ffffff !important;
+}
+.nav-link{
+    color:#ffffff !important;
+}
+.navbar-nav button{
+    border: 2px solid var(--main);
+    border-radius: 20px;
+   font-weight: 550;
+color: #ffffff !important;
+}
+.navbar-nav button:hover{
+    background-color: var(--main);
+}
+.heroContainer{
+    background-color: #37517e;
+  
+}
+.imgs img{
+    margin-top: 60px;
+height: 450px;   
+ animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(2rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+.rows{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.contents {
+    margin-top: 120px !important;
+
+}
+.contents h1{
+font-size: 50px !important;
+font-weight: bold;
+}
+.btns button{
+    border: none;
+    border-radius: 30px !important;
+background-color: var(--main);
+color: #ffffff;    
+}
+.btns i{
+    border: 2px solid #ffffff;
+    padding: 10px 12px;
+    border-radius: 50px;
+}
+.btns p{
+    font-size: 17px !important;
+}
+.logs-imgs img{
+    height: 30px !important;
+    filter: grayscale(1);
+}
+.logo{
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+.logs-imgs img:hover{
+    filter: grayscale(0) !important;
+}
+.line{
+    border-bottom: 2px solid var(--main);
+    width: 30px ;
+}
+.about{
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+
+
+
+
